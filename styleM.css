@@ -53,7 +53,7 @@ p {
     line-height: 1.4em;
 }
 
-p + p {margin: 2% 0;}
+p + p {margin: 0;}
 
 .container {
     width: 400px;
