@@ -57,7 +57,7 @@ p + p {margin: 0;}
 
 .container {
     width: auto;
-    padding: 10%;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@ section.texto {
     flex: 1;
 }
 
-section + section {margin: 2%;}
+section + section {margin: 0;}
 
 .foto {
     width: 50px;
