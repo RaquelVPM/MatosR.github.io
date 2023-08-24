@@ -38,7 +38,7 @@ h1 {
 
 h1::after {
     content: "";
-    display: block;
+    display: flex;
     width: 100%;
     height: 5px;
     background-color: #000;
@@ -51,7 +51,7 @@ a {text-decoration: none; color: #000}
 
 p {
     font-size: 1.25em;
-    line-height: 1.4em;
+    line-height: 2em;
 }
 
 p + p {margin: 0;}
