@@ -2,7 +2,7 @@
     margin: 0;
     padding: 1em;
     box-sizing: border-box;
-    list-style: none;
+    list-style: square;
 }
 
 body, html {
@@ -16,7 +16,7 @@ body, html {
     display: grid;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align: justify;
 }
 
@@ -53,7 +53,7 @@ p {
     line-height: 1.4em;
 }
 
-p + p {margin: 5% 0;}
+p + p {margin: 2% 0;}
 
 .container {
     width: 400px;
@@ -67,7 +67,7 @@ p + p {margin: 5% 0;}
 main {
     width: 100%;
     height: auto;
-    margin: 5% 0;
+    margin: 3% 0;
 }
 
 
@@ -79,7 +79,7 @@ section.texto {
     flex: 1;
 }
 
-section + section {margin: 0;}
+section + section {margin: 2%;}
 
 .foto {
     width: 50px;
