@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 5% 0;
     padding: 1em;
     box-sizing: border-box;
     list-style: none;
@@ -22,8 +22,8 @@ body, html {
 }
 
 header {
-    width: 100%;
-    height: 5%;
+    width: 0;
+    height: 0;
     background-color: #F3F6F4;
 }
 
