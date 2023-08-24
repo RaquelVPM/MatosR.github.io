@@ -79,7 +79,7 @@ section.texto {
     flex: 1;
 }
 
-section + section {margin: 10px 50px 20px;}
+section + section {margin: 0;}
 
 .foto {
     width: 50px;
