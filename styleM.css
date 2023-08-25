@@ -12,9 +12,9 @@ body, h1, h2, p, ul, li {
 }
 
 body, html {
-    width: 75%;
-    height: 75%;
-    padding: 0;
+    width: 90%;
+    height: 90%;
+    padding: 1em;
     background-color: #EEE;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 12px;
