@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 1em;
+    padding: 2em;
     box-sizing: border-box;
     list-style: none;
 
@@ -41,9 +41,9 @@ h1::after {
     content: "";
     display: flex;
     width: 100%;
-    height: 5px;
+    height: 2px;
     background-color: #000;
-    margin: 5% 0;
+    margin: 2% 0;
 }
 
 span {font-size: smaller;}
@@ -52,10 +52,10 @@ a {text-decoration: none; color: #000}
 
 p {
     font-size: 1.25em;
-    line-height: 2em;
+    line-height: 1.6em;
 }
 
-p + p {margin: 5% 0;}
+p + p {margin-left: 10% 0;}
 
 .container {
     width: auto;
@@ -81,11 +81,11 @@ section.texto {
     flex: 1;
 }
 
-section + section {margin: 5% 0;}
+section + section {margin-left: 10% 0;}
 
 .foto {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     margin: 0;
     border-radius: 50px;
 }
