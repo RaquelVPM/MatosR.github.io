@@ -19,6 +19,10 @@ body, html {
     align-items: center;
     flex-wrap: wrap;
     text-align: justify;
+    .center-horizontal {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 header {
