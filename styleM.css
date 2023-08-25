@@ -1,9 +1,14 @@
 * {
-    margin: 6em;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
 body, html {
@@ -12,7 +17,7 @@ body, html {
     padding: 0;
     background-color: #EEE;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: normal;
 
     display: grid;
@@ -28,7 +33,7 @@ header {
     background-color: #F3F6F4;
 }
 
-img{max-width: 50% !important;}
+img{max-width: 60% !important;}
 
 h1 {
     font-weight: bold;
@@ -88,5 +93,12 @@ section + section {margin-left: 10% 0;}
     height: 60px;
     margin: 0;
     border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
