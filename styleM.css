@@ -60,7 +60,7 @@ p {
     line-height: 1.6em;
 }
 
-p + p {margin-left: 10% 0;}
+p + p {margin-left: 25% 0;}
 
 .container {
     width: auto;
@@ -86,7 +86,7 @@ section.texto {
     flex: 1;
 }
 
-section + section {margin: 10% 0;}
+section + section {margin: 25% 0;}
 
 foto {
     width: 60px;
